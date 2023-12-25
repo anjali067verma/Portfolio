@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,700;0,800;0,900;1,300;1,400;1,500&family=Josefin+Sans:wght@500&family=Kanit:ital,wght@1,800&family=Noto+Serif+Telugu:wght@200;300;400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,700;0,800;0,900;1,300;1,400;1,500&family=Josefin+Sans:wght@500&family=Kanit:ital,wght@1,800&family=Noto+Serif+Telugu:wght@200;300;400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Iso&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.box-index{
+    background-image: url(new_images/simple.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgba(223, 218, 218);
+    font-family: 'Fira Sans',sans-serif;
+    height:100vh;
+    transition: transform 0.2s ease-in;
+}
+.sidebar nav{
+    padding:35px;
+    font-family: 'Fira Sans',sans-serif;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color:black;
+   font-weight: bold;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 88vw;
+}
+.box{
+    background-image: url(new_images/simple.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 140vh;
+}
+.container{
+    display:flex;
+}
+    .infoContainer{
+        /*background-color: rgb(202, 9, 128);*/
+        height:60vh;
+        width:68vw;
+        margin:144px auto;
+        display:flex;
+        justify-content: space-around;
+    }
+    .devInfo{
+        font-size:16px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Source Code Pro',monospace;
+    }
+    .hello{
+      font-size: 3em;
+      margin-top: 40px;
+    }
+    .name{
+       font-size: 2.5em;
+       font-weight: bold;
+       font-family: 'Fira Sans',sans-serif;
+    }
+    .about{
+font-size: 2.5em;
+    }
+    .moreabout{
+        font-size:1.5em;
+        font-family: 'Fira Sans',sans-serif;
+        margin-top:23px;
+        font-weight:600;
+    }
+    .buttons{
+        margin-top:30px;
+    }
+    .btn{
+        padding:9px 10px;
+        border-radius: 22px;
+        font-weight: bold;
+        color:white;
+        background-color: rgba(30, 53, 255, 0.804);
+        font-size:1em;
+        margin:9px 0;
+        cursor: pointer;
+        
+    }
+    .btn-sm{
+        font-size: 18px;
+        padding: 10px 19px;
+        margin: 12px 0;
+    }
+    .btn.hover{
+      background-color:white;
+      color: dodgerblue;
+    }
+    .devPic img{
+        height: 60vh;
+    }
+    .contactform{
+        font-family: 'Fira Sans',sans-serif;
+        font-weight: 700;
+        padding: 0 34px;
+        margin-left:150px;
+        margin-top: 50px;
+    }
+    .contactform h1{
+        font-family: 'Source Code Pro',monospace;
+        padding: 12px 0;
+        margin-top: 50px;
+    }
+    .contactform form div{
+        padding: 10px 0;
+        display:flex;
+        flex-direction:column;
+    }
+    .contactform div input{
+        width:60vw;
+        border-radius:5px;
+        margin:6px 0 0 0;
+        padding: 3px;
+    }
+    #emailHelp{
+        font-size: 11px;
+        color:midnightblue;
+        margin: 0 5px;
+    }
+    .boxA{
+        background-image: url(new_images/simple.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    .achievementSection h1{
+        font-family: 'Source Code Pro',monospace;
+        font-weight: 700;
+       text-align: center;
+        padding-top: 14px;
+    }
+    .index-section{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        margin-bottom: 15px;
+    }
+    .boxC{
+        height: 250px;
+        width:23%;
+        background-color:white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .box1-img{
+        background-image:url("new_images/achieve_pic2.jpeg");
+        background-size:cover;
+       height: 230px;
+    }
+    .box2-img{
+        background-image:url("new_images/goals_3.jpg");
+        background-size:cover;
+       height:230px;
+    }
+    .box3-img{
+        background-image:url("new_images/team success.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .box4-img{
+        background-image:url("new_images/certificate_2.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .box5-img{
+        background-image:url("new_images/flag.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .box6-img{
+        background-image:url("new_images/target.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .box7-img{
+        background-image:url("new_images/top_3.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .box8-img{
+        background-image:url("new_images/first pic star.jpeg");
+        background-size:cover;
+       height:230px;
+    }
+    .boxP{
+        background-image: url(new_images/simple.jpg);
+        background-size:cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    .project-section{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        margin-bottom: 15px;
+    }
+    .projectSection h1{
+        font-family: 'Source Code Pro',monospace;
+        font-weight: 700;
+       text-align: center;
+        padding-top: 14px;
+    }
+    .boxS{
+        background-image: url(new_images/simple.jpg);
+        background-size: cover;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+    }
+    .skillsSection h1{
+        font-family: 'Source Code Pro',monospace;
+        font-weight: 700;
+       text-align: center;
+        padding-top: 14px;
+    }
+    .boxsC{
+        height: 450px;
+        width:450px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 60px;
+        padding-top: 1px;
+    }
+    .boxs1-img{
+        background-image:url("new_images/2bulb.jpg");
+        background-size:cover;
+       height: 250px;
+       width:400px;
+       margin-bottom: 10px;
+    }
+    .boxs2-img{
+        background-image:url("new_images/pencil2.jpeg");
+        background-size:cover;
+       height: 250px;
+       width:400px;
+
+    }
+    .projects{
+        font-size:45px;
+        font-weight: bold;
+    }
+    .btn-view2{
+        margin-top: 150px;
+        margin-left: 150px;
+        padding:9px 10px;
+        border-radius: 22px;
+        font-weight: bold;
+        color:white;
+        background-color: rgb(0, 0, 0);
+        font-size:14px;
+        cursor: pointer;
+    }
+    .btn-view1{
+        margin-top: 115px;
+        margin-left: 150px;
+        padding:9px 10px;
+        border-radius: 22px;
+        font-weight: bold;
+        color:white;
+        background-color: rgb(0, 0, 0);
+        font-size:14px;
+        cursor: pointer;
+    }
+    .list{
+        margin-top: 100px;
+        font-size:45px;
+        color:rgb(129, 19, 19);
+        margin-left: 190px;
+    }
+    .heading{
+        color:black;
+    }
+    .language{
+        margin-bottom: 30px;
+    }
+    .fundamental{
+        margin-bottom: 30px;
+    }
+    .development{
+        margin-bottom: 30px;
+    }
+    .sidebarGo{
+        transform: translate(-443px, 0px);
+        position:absolute;
+    }
+    .hamburger{
+        position:absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px; 
+    }
+    .cross{
+        margin-left: 160px;
+        margin-top: 5px;
+    }
+    .ham{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .project2{
+        font-size:30px;
+        color:rgb(107, 12, 12);
+    }
+    @media (max-width: 1250px){
+        *{
+            /*background-color:red;*/
+        }
+        .devInfo{
+            font-size:10px;
+        }
+        .devPic{
+            display: none;
+        }
+       .contactform{
+        margin:8px;
+       }
+       .list{
+        margin-left: 48px ;
+        margin-bottom: 48px;
+       }
+       .btn{
+        font-size:10px;
+       }
+    }
+   
+   
+   
+    
